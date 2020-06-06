@@ -1,0 +1,134 @@
+.navbar {
+    background-color:#F48FB1 !important;
+    /* position: fixed; */
+    margin-bottom: 3px;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.title {
+    /* font-family: 'Pacifico' !important;
+    src: url('fonts/Pacifico-Regular.ttf') !important; */
+    font-weight: bold;
+}
+
+.fa-shopping-cart, .fa-user {
+    font-size: large !important;
+}
+
+.d-block {
+    height: 600px;
+}
+
+.heading {
+    background-color: #F48FB1;
+}
+
+.sub-heading {
+    background-color: #FCE4EC;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    width: 1100px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   box-shadow: 2px 5px 5px gray;
+   border: 1px solid #F48FB1;
+}
+
+.sub-heading1 {
+    font-weight: bold;
+}
+
+.heading > h1 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.nars {
+    margin-top: 50px;
+}
+
+.card {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+    border: 1px solid #F48FB1;
+}
+
+.card-body {
+    background-color: #FCE4EC;
+}
+
+.card-title {
+    height: 50px;
+}
+
+.btn {
+    width: 100%;
+    background-color: #F48FB1;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(235, 76, 129);
+}
+
+.dropdown-item:hover {
+    background-color: #F48FB1;
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #F48FB1;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.footer > div {
+    text-align: center;
+  }
+
+.topbtn {
+    position: fixed;
+    
+    bottom: 2px;
+    right: 5px;
+    border: none;
+    background-color: transparent;
+    padding-right: 12px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    .card-img-top {
+        height: 350px;
+    }
+
+    .topbtn {
+        width: 10px;
+        height: 10px;
+        margin-right: 60px;
+        margin-bottom:  50px;
+    }
+
+    .sub-heading {
+        width: 90%;
+    }
+}
